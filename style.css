@@ -1,0 +1,311 @@
+body {
+    background-color: #FFFFFF;
+    margin: 0;
+    font-family: "Roboto", "Playfair Display", sans-serif;
+  }
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-family: "Playfair Display", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    letter-spacing: 1px;
+    color: #000000;
+}
+
+h3 {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 28px;
+}
+
+
+h4 {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 23px;
+}
+
+h5 {
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h6 {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li a {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+}
+
+h4 a {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 23px;
+    text-decoration: none;
+    color: #000000;
+}
+
+li a:hover, h4 a:hover {
+    color: #FF7931;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+
+.header-title, .footer-title,
+.news-title, .reviews-title {
+    text-align: center;
+}
+
+.header-title {
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 0px;
+}
+
+.header-item {
+    margin: 26px;
+}
+
+
+.news {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url(img/back.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.news div {
+    padding: 0;
+    margin: 0;
+}
+
+.news .news-vector {
+    margin-top: 45px;
+    margin-bottom: -35px;
+}
+
+.news .news-title {
+    margin-bottom: 55px;
+}
+
+.news .news-discr {
+    margin-bottom: 45px;
+    line-height: 170%;
+    max-width: 456px;
+    text-align: center;
+}
+
+.reviews-title {
+    margin-top: 45px;
+    margin-bottom: 5px;
+}
+
+.review-items {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.review-items div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 370px;
+    padding: 15px;
+}
+
+.review-items img {
+    margin-bottom: 10px;
+}
+
+.review-items h4 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.review-items p {
+    margin-top: 5px;
+    line-height: 1.5;
+}
+
+.tickets {
+    margin-top: 50px;
+    margin-bottom: 85px;
+}
+
+.tickets h5 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.tickets-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+}
+
+.tickets-info div {
+    max-width: 370px;
+    text-align: center;
+}
+
+.tickets-info h4 {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.tickets-info p {
+    line-height: 21px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.tickets-btn {
+    background-color: #FF7931;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: block;
+    width: 140px;
+    height: 47px;
+    text-align: left;
+    padding-left: 30px;
+    line-height: 47px;
+    margin-top: 25px;
+    background-image: url(img/Shape.svg);
+    background-repeat: no-repeat;
+    background-position: 80% 45%;
+}
+
+.tickets-btn:hover {
+    background-color: #575757;
+    color: white;
+}
+
+.page-footer {
+    background-color: #575757;
+}
+
+.footer-title {
+    color: white;
+    padding-top: 25px;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 0px;
+}
+
+.footer-item {
+    margin: 26px;
+}
+
+.footer-item a {
+    color: white;
+}
+
+.line {
+    height: 0;
+    border: none;
+    border-top: 2px solid #9A9A9A;
+    opacity: 0.4;
+    width: 1170px;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-social-item {
+    background-color: #FFFFFF;
+    width: 47px;
+    height: 47px;
+    text-align: center;
+    margin-top: 33px;
+    margin-bottom: 45px;
+}
+
+.footer-social-item:hover {
+    background-color: #FF7931;
+    color: white;
+}
+
+.fsi-1 {
+    background-image: url(img/ig-icon.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    margin-right: 7px;
+}
+
+.fsi-2 {
+    background-image: url(img/facebook_icon.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.fsi-3 {
+    background-image: url(img/twitter_icon.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    margin-left: 7px;
+}
