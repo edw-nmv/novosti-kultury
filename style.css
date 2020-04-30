@@ -116,6 +116,7 @@ ul li {
     background-size: cover;
     color: white;
     margin-bottom: 40px;
+    min-height: 464px;
 }
 
 .news div {
