@@ -92,6 +92,7 @@ ul li {
 
 .nav-list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin: auto;
@@ -147,6 +148,7 @@ ul li {
 
 .review-items {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin: 0;
 }
@@ -245,6 +247,7 @@ ul li {
 
 .footer-nav {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin: auto;
